@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Base */
+
+html {
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	font-weight: 100;
+}
+
+body {
+	font-weight: 100;
+	background-color: #2B4214;
+	margin: 0;
+	padding: 0;
+	color: #EDF2E8;
+	font-size: 16px
+}
+
+header {
+	background-color: #57A30B;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/* Nav Bar */
+
+nav {
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+}
+
+.site-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+	position: fixed;
+}
+
+li.site-nav {
+	float: left;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+	position: relative;
+}
+
+li.site-nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+	z-index: 9999;
+	position: relative;
+}
+
+li.site-nav a:hover, .act {
+	background-color: #376B04;
+	z-index: 9999;
+}
+
+ul.site-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #57A30B;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+.mid {
+	border-right: 1px solid #EDF2E8;
+	z-index: 9999;
+	position: fixed;
+}
+
+/* Main All */
+
+main {
+	margin: 0;
+}
+
+/* Header */
+
+.header {
+	font-size: 5rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+/* Main Content */
+
+.partdes1 {
+	
+}
+
+.pname1, .pname2 {
+	font-size: 3rem;
+	text-align: center
+}
+
+.des1, .des2 {
+	font-size: 1.2rem;
+	text-align: center;
+	padding: 0 2rem 0 2rem
+}
+
+.prod1, .prod2 {
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: #376B04;
+	padding: .5em 0 .2em 0;
+	z-index: 50;
+}
+
+.prodpic1 {
+	position: absolute;
+	background-color: #FFFFFF;
+	width: 50%;
+	height: 25rem;
+	left: 0;
+	overflow: hidden;
+}
+
+.prodpic2 {
+	position: absolute;
+	background-color: #FFFFFF;
+	width: 50%;
+	height: 20rem;
+	right: 0;
+	overflow: hidden;
+	vertical-align: middle;
+	align-content: center;
+}
+
+.specs1 {
+	position: absolute;
+	background-color: #272D2D;
+	width: 50%;
+	height: 25rem;
+	right: 0;
+	color: white;
+}
+
+.specs2 {
+	position: absolute;
+	background-color: #272D2D;
+	width: 50%;
+	height: 20rem;
+	left: 0;
+	color: white;
+}
+
+.spec1, .spec2 {
+	font-size: 1.4rem
+}
+
+.spcl1 {
+	list-style: none;
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+.spcl2 {
+	list-style: none;
+	font-size: 1.2rem;
+	text-align: right;
+	padding-right: 2.5rem
+}
+
+.rationale1 {
+	padding: 26rem 2rem 0 2rem;
+	font-size: 1.2rem;
+}
+
+.rationale2 {
+	padding: 21rem 2rem 0 2rem;
+	font-size: 1.2rem;
+}
+
+.copyright {
+	font-size: 1rem;
+	text-align: center;
+}
